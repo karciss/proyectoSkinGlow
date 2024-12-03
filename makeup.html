@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>MakeUp</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="makeup.css">
+    </head>
+
+    <body>
+        <header >
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#" id="logo"><img src="img/logo1.png" alt="" width="50px">Skin Glow</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="skincare.html">Skincare</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="haircare.html">Haircare</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="nailcare.html">Nailcare</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="bodycare.html">Bodycare</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="makeup.html">Make Up</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="registro.html">Registrarse</a>
+                      </li>
+                      
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input type="text" class="form-control search-input" placeholder="Buscar productos" required>
+                        <button type="button" id="btn" class="search-button">
+                            <i class="fa fa-search"></i>
+                            <img src="img/search.png" alt="no search" height="20">
+                        </button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main>
+
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/imgnail1.jpg" class="d-block w-100 carousel-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-start" style="left: 250;  right: auto; top: 15%;">
+                            <h3 class="titulo1">NAILCARE</h3>
+                            <p style="font-style: italic;">Complice de Tu Belleza</p>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="img/imgnail3.jpg" class="d-block w-100 carousel-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-start" style="left: 70%; right: auto; top: 10%;">
+
+                        
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <section class="productosSkincare">
+                <h1 class="text-center mb-4">Productos Make Up</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4 align-items-center">
+                    <!-- Tarjeta 1 -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm" style="width: 20rem;" data-images='[
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/101-black.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/1035.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/1036.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/1041.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/1044.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/1047.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/1054.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/1052-beige.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/1057.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/158.jpg.webp"
+                            
+                            
+                        ]'>
+                            <div class="position-relative">
+                                <img class="card-img-top p-3 thumbnail" src="https://fiduciamakeupbo.com/wp-content/uploads/2024/04/1032.jpg.webp" 
+                                     alt="Producto" onclick="openLightbox(this)">
+                
+                                <!-- Lightbox -->
+                                <div id="lightbox" class="lightbox d-none" onclick="closeLightbox()">
+                                    <img id="lightbox-img" src="" alt="Zoom Producto">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">Delineador de labios ultrafino</h6>
+                                <p class="card-text text-muted small">Italia Deluxe</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="me-1">4.7</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="fw-bold" style="color: #b1a46a;">Bs. 8,00</p>
+                                <button class="btn btn-primary w-100">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Tarjeta 2 -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm" style="width: 20rem;" data-images='[
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/05/01-PLEASURE.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/05/02-ENCHANTED.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/05/05-NOTTIE.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/05/06-FOOLISH.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/05/07-DOLLY.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/05/09-LOVER.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/05/10-CUTIE.jpg.webp"
+
+                        ]'>
+                            <div class="position-relative">
+                                <img class="card-img-top p-3 thumbnail" src="https://fiduciamakeupbo.com/wp-content/uploads/2024/05/11-MODEST.jpg.webp" 
+                                     alt="Producto" onclick="openLightbox(this)">
+                
+                                <!-- Lightbox -->
+                                <div id="lightbox" class="lightbox d-none" onclick="closeLightbox()">
+                                    <img id="lightbox-img" src="" alt="Zoom Producto">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">Brillo de Labios Thirsty Colored Plumping Gloss</h6>
+                                <p class="card-text text-muted small">Italia Deluxe</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="me-1">3.2</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="fw-bold" style="color: #b1a46a;">Bs. 33,00</p>
+                                <button class="btn btn-primary w-100">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- tarjeta 3 -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm" style="width: 20rem;" data-images='[
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/popjuici02-1.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/popjuici04.jpg.webp"
+                        ]'>
+                            <div class="position-relative">
+                                <img class="card-img-top p-3 thumbnail" src="https://fiduciamakeupbo.com/wp-content/uploads/2024/04/popjuici03-1.jpg.webp" 
+                                     alt="Producto" onclick="openLightbox(this)">
+                
+                                <!-- Lightbox -->
+                                <div id="lightbox" class="lightbox d-none" onclick="closeLightbox()">
+                                    <img id="lightbox-img" src="" alt="Zoom Producto">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">Lip Tint Pop Juicy</h6>
+                                <p class="card-text text-muted small">Dapop</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="me-1">3.7</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="fw-bold" style="color: #b1a46a;">Bs. 25,00</p>
+                                <button class="btn btn-primary w-100">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- tarjeta 4 -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm" style="width: 20rem;" data-images='[
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/mauve.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/berry.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/PEONY.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/natural.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/red.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/terracotal.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/true-red.jpg.webp"
+                        ]'>
+                            <div class="position-relative">
+                                <img class="card-img-top p-3 thumbnail" src="https://fiduciamakeupbo.com/wp-content/uploads/2024/04/wine.jpg.webp" 
+                                     alt="Producto" onclick="openLightbox(this)">
+                
+                                <!-- Lightbox -->
+                                <div id="lightbox" class="lightbox d-none" onclick="closeLightbox()">
+                                    <img id="lightbox-img" src="" alt="Zoom Producto">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">Stuck On You PH Lip Stain</h6>
+                                <p class="card-text text-muted small">Italia Deluxe</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="me-1">5.0</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="fw-bold" style="color: #b1a46a;">Bs. 20,00</p>
+                                <button class="btn btn-primary w-100">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- tarjeta 5 -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm" style="width: 20rem;" data-images='[
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/16.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/01-1.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/02-1.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/04-1.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/05-1.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/06-1.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/10-1.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/21.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/23.jpg.webp"
+
+                        ]'>
+                            <div class="position-relative">
+                                <img class="card-img-top p-3 thumbnail" src="https://fiduciamakeupbo.com/wp-content/uploads/2024/04/25.jpg.webp" 
+                                     alt="Producto" onclick="openLightbox(this)">
+                
+                                <!-- Lightbox -->
+                                <div id="lightbox" class="lightbox d-none" onclick="closeLightbox()">
+                                    <img id="lightbox-img" src="" alt="Zoom Producto">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">Mousse Matte Lipstick</h6>
+                                <p class="card-text text-muted small">Italia Deluxe</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="me-1">4.6</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="fw-bold" style="color: #b1a46a;">Bs. 23,00</p>
+                                <button class="btn btn-primary w-100">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- tarjeta 6 -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm" style="width: 20rem;" data-images='[
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/11/jelllytint_hudamoji_4-600x600-1.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/11/jelllytint_hudamoji_2-600x600-1.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/11/jelllytint_hudamoji_3-600x600-1.webp"
+                            
+                        ]'>
+                            <div class="position-relative">
+                                <img class="card-img-top p-3 thumbnail" src="https://fiduciamakeupbo.com/wp-content/uploads/2024/11/jelllytint_hudamoji_1-600x600-1.webp" 
+                                     alt="Producto" onclick="openLightbox(this)">
+                
+                                <!-- Lightbox -->
+                                <div id="lightbox" class="lightbox d-none" onclick="closeLightbox()">
+                                    <img id="lightbox-img" src="" alt="Zoom Producto">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">Jelly Tint</h6>
+                                <p class="card-text text-muted small">Hudamoji</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="me-1">4.7</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="fw-bold" style="color: #b1a46a;">Bs. 33,00</p>
+                                <button class="btn btn-primary w-100">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- tarjeta 7 -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm" style="width: 20rem;" data-images='[
+                        "https://fiduciamakeupbo.com/wp-content/uploads/2024/05/01.jpg.webp",
+                        "https://fiduciamakeupbo.com/wp-content/uploads/2024/05/02.jpg.webp"
+                            
+                        ]'>
+                            <div class="position-relative">
+                                <img class="card-img-top p-3 thumbnail" src="https://fiduciamakeupbo.com/wp-content/uploads/2024/05/03.jpg.webp" 
+                                     alt="Producto" onclick="openLightbox(this)">
+                
+                                <!-- Lightbox -->
+                                <div id="lightbox" class="lightbox d-none" onclick="closeLightbox()">
+                                    <img id="lightbox-img" src="" alt="Zoom Producto">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">To Dye For Lip Tint</h6>
+                                <p class="card-text text-muted small">Italia Deluxe</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="me-1">4.1</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="fw-bold" style="color: #b1a46a;">Bs. 23,00</p>
+                                <button class="btn btn-primary w-100">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- tajeta 8 -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm" style="width: 20rem;" data-images='[
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/01-4.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/02-6.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/03-6.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/04-5.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/05-6.jpg.webp"
+                        ]'>
+                            <div class="position-relative">
+                                <img class="card-img-top p-3 thumbnail" src="https://fiduciamakeupbo.com/wp-content/uploads/2024/04/06-6.jpg.webp" 
+                                     alt="Producto" onclick="openLightbox(this)">
+                
+                                <!-- Lightbox -->
+                                <div id="lightbox" class="lightbox d-none" onclick="closeLightbox()">
+                                    <img id="lightbox-img" src="" alt="Zoom Producto">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">Dúo de lápiz labial líquido y brillo</h6>
+                                <p class="card-text text-muted small">Ruby Rose</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="me-1">3.4</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="fw-bold" style="color: #b1a46a;">Bs. 29,00</p>
+                                <button class="btn btn-primary w-100">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- tarjeta 9 -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm" style="width: 20rem;" data-images='[
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/chingona.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/fierce.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/slay-qeen.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/05/princesa.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/05/sofisticada.jpg.webp"
+                            
+                        ]'>
+                            <div class="position-relative">
+                                <img class="card-img-top p-3 thumbnail" src="https://fiduciamakeupbo.com/wp-content/uploads/2024/05/classy.jpg.webp" 
+                                     alt="Producto" onclick="openLightbox(this)">
+                
+                                <!-- Lightbox -->
+                                <div id="lightbox" class="lightbox d-none" onclick="closeLightbox()">
+                                    <img id="lightbox-img" src="" alt="Zoom Producto">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">Cheeky Baby Velvet Tint</h6>
+                                <p class="card-text text-muted small">Italia Deluxe</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="me-1">4.7</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="fw-bold" style="color: #b1a46a;">Bs. 30,00</p>
+                                <button class="btn btn-primary w-100">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- tarjeta 10 -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm" style="width: 20rem;" data-images='[
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/01-5.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/002-1.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/02-7.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/003-1.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/03-7.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/004-1.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/04-6.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/005-1.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/05-7.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/006-1.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/06-7.jpg.webp"
+                            
+                        ]'>
+                            <div class="position-relative">
+                                <img class="card-img-top p-3 thumbnail" src="https://fiduciamakeupbo.com/wp-content/uploads/2024/04/001-1.jpg.webp" 
+                                     alt="Producto" onclick="openLightbox(this)">
+                
+                                <!-- Lightbox -->
+                                <div id="lightbox" class="lightbox d-none" onclick="closeLightbox()">
+                                    <img id="lightbox-img" src="" alt="Zoom Producto">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">Labial Feels Mood Matte Confort</h6>
+                                <p class="card-text text-muted small">Ruby Rose</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="me-1">4.1</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="fw-bold" style="color: #b1a46a;">Bs. 23,00</p>
+                                <button class="btn btn-primary w-100">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- tarjeta 11 -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm" style="width: 20rem;" data-images='[
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/churros.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/mufin.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/nozes.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/papaya.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/shono.jpg.webp"
+                            
+                        ]'>
+                            <div class="position-relative">
+                                <img class="card-img-top p-3 thumbnail" src="https://fiduciamakeupbo.com/wp-content/uploads/2024/04/banaffe.jpg.webp" 
+                                     alt="Producto" onclick="openLightbox(this)">
+                
+                                <!-- Lightbox -->
+                                <div id="lightbox" class="lightbox d-none" onclick="closeLightbox()">
+                                    <img id="lightbox-img" src="" alt="Zoom Producto">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">Brillo Labial Melu</h6>
+                                <p class="card-text text-muted small">Ruby Rose</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="me-1">3.2</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="fw-bold" style="color: #b1a46a;">Bs. 20,00</p>
+                                <button class="btn btn-primary w-100">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- tarjeta 12 -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm" style="width: 20rem;" data-images='[
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/05/paleta21.jpg.webp"
+                        ]'>
+                            <div class="position-relative">
+                                <img class="card-img-top p-3 thumbnail" src="https://fiduciamakeupbo.com/wp-content/uploads/2024/05/paleta2.jpg.webp" 
+                                     alt="Producto" onclick="openLightbox(this)">
+                
+                                <!-- Lightbox -->
+                                <div id="lightbox" class="lightbox d-none" onclick="closeLightbox()">
+                                    <img id="lightbox-img" src="" alt="Zoom Producto">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">Paleta de colores Eye Candy – Natural Matte & Glow</h6>
+                                <p class="card-text text-muted small">Italia Deluxe</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="me-1">4.5</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="fw-bold" style="color: #b1a46a;">Bs. 90,00</p>
+                                <button class="btn btn-primary w-100">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- tarjeta 13 -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm" style="width: 20rem;" data-images='[
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/02-3.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/03-3.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/04-2.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/05-3.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/06-3.jpg.webp"
+                            
+                        ]'>
+                            <div class="position-relative">
+                                <img class="card-img-top p-3 thumbnail" src="https://fiduciamakeupbo.com/wp-content/uploads/2024/04/mon-cherrie.jpg.webp" 
+                                     alt="Producto" onclick="openLightbox(this)">
+                
+                                <!-- Lightbox -->
+                                <div id="lightbox" class="lightbox d-none" onclick="closeLightbox()">
+                                    <img id="lightbox-img" src="" alt="Zoom Producto">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">Rubor en polvo</h6>
+                                <p class="card-text text-muted small">Dapop Mon Cherie</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="me-1">4.3</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="fw-bold" style="color: #b1a46a;">Bs. 29,00</p>
+                                <button class="btn btn-primary w-100">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- tarjeta 14 -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm" style="width: 20rem;" data-images='[
+                            
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/02-gel-de-cejas-essence.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/02-gel-de-cejas-essence32234.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/04-gel-de-cejas-essence12.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/04-gel-de-cejas-essence.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/04-gel-de-cejas-essence1234.jpg.webp"
+                            
+                        ]'>
+                            <div class="position-relative">
+                                <img class="card-img-top p-3 thumbnail" src="https://fiduciamakeupbo.com/wp-content/uploads/2024/04/02-gel-de-cejas-essence32.jpg.webp" 
+                                     alt="Producto" onclick="openLightbox(this)">
+                
+                                <!-- Lightbox -->
+                                <div id="lightbox" class="lightbox d-none" onclick="closeLightbox()">
+                                    <img id="lightbox-img" src="" alt="Zoom Producto">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">Máscara Gel para Cejas</h6>
+                                <p class="card-text text-muted small">Essence</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="me-1">3.2</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="fw-bold" style="color: #b1a46a;">Bs. 20,00</p>
+                                <button class="btn btn-primary w-100">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- tarjeta 15 -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm" style="width: 20rem;" data-images='[
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/10/01-Cinnamon-Spice-ESSENCE.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/10/02-Silky-Hazelnut-ESSENCE.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/05-pink-blush-essence.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/06-cool-matte-essence2.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/08-darck-berry-essence.jpg.webp"
+                            
+                        ]'>
+                            <div class="position-relative">
+                                <img class="card-img-top p-3 thumbnail" src="https://fiduciamakeupbo.com/wp-content/uploads/2024/04/03-soft-beige-esseince.jpg.webp" 
+                                     alt="Producto" onclick="openLightbox(this)">
+                
+                                <!-- Lightbox -->
+                                <div id="lightbox" class="lightbox d-none" onclick="closeLightbox()">
+                                    <img id="lightbox-img" src="" alt="Zoom Producto">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">Barra de labios líquida 8h matte</h6>
+                                <p class="card-text text-muted small">Essence</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="me-1">2.8</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="fw-bold" style="color: #b1a46a;">Bs. 29,00</p>
+                                <button class="btn btn-primary w-100">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- tarjeta 16 -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm" style="width: 20rem;" data-images='[
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/palm-beache.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/kailani.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/hawai.jpg.webp"
+                        ]'>
+                            <div class="position-relative">
+                                <img class="card-img-top p-3 thumbnail" src="https://fiduciamakeupbo.com/wp-content/uploads/2024/04/aloha.jpg.webp" 
+                                     alt="Producto" onclick="openLightbox(this)">
+                
+                                <!-- Lightbox -->
+                                <div id="lightbox" class="lightbox d-none" onclick="closeLightbox()">
+                                    <img id="lightbox-img" src="" alt="Zoom Producto">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">Tropical Bronze</h6>
+                                <p class="card-text text-muted small">Dapop</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="me-1">4.5</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="fw-bold" style="color: #b1a46a;">Bs. 28,00</p>
+                                <button class="btn btn-primary w-100">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- tarjeta 17 -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm" style="width: 20rem;" data-images='[
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/2b-2.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/3b-2.jpg.webp",
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/4b-2.jpg.webp"
+                        ]'>
+                            <div class="position-relative">
+                                <img class="card-img-top p-3 thumbnail" src="https://fiduciamakeupbo.com/wp-content/uploads/2024/04/1b-2.jpg.webp" 
+                                     alt="Producto" onclick="openLightbox(this)">
+                
+                                <!-- Lightbox -->
+                                <div id="lightbox" class="lightbox d-none" onclick="closeLightbox()">
+                                    <img id="lightbox-img" src="" alt="Zoom Producto">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">2-In-1 Contour MyStick</h6>
+                                <p class="card-text text-muted small">Italia Deluxe</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="me-1">4.6</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="fw-bold" style="color: #b1a46a;">Bs. 39,00</p>
+                                <button class="btn btn-primary w-100">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- tarjeta 18 -->
+                    <div class="col">
+                        <div class="card border-0 shadow-sm" style="width: 20rem;" data-images='[
+                            "https://fiduciamakeupbo.com/wp-content/uploads/2024/04/darker-skin-contorno.jpg.webp"
+                            
+                        ]'>
+                            <div class="position-relative">
+                                <img class="card-img-top p-3 thumbnail" src="https://fiduciamakeupbo.com/wp-content/uploads/2024/04/darker-skin-contorno123.jpg.webp" 
+                                     alt="Producto" onclick="openLightbox(this)">
+                
+                                <!-- Lightbox -->
+                                <div id="lightbox" class="lightbox d-none" onclick="closeLightbox()">
+                                    <img id="lightbox-img" src="" alt="Zoom Producto">
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">CONTOURING DUO paleta dúo para contouring</h6>
+                                <p class="card-text text-muted small">Essence</p>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="me-1">3.8</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="fw-bold" style="color: #b1a46a;">Bs. 41,00</p>
+                                <button class="btn btn-primary w-100">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <!-- place footer here -->
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+        <script src="makeup.js"></script>
+    </body>
+</html>

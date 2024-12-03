@@ -1,0 +1,148 @@
+
+* {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/fonRe.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fija la imagen al fondo */
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    margin: 0; 
+    padding: 0; 
+}
+.nav-link:hover{
+    background-color: #9FA8D0;
+    border-radius: 15px;
+    color:white;
+}
+main {
+    flex: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    border: 1px solid #e0e0e0;
+    border-radius: 20px 0 0 20px;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #9FA8D0; /* Color de fondo del botón */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.search-button i {
+    color: white; /* Color del icono */
+}
+form {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    color: #9C6AB2;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.btnSubir{
+    background-color:  #89599e;
+    border: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+.btnSubir:hover{
+    background-color: #652b7e;
+}
+.btnGuardar{
+    background-color:  #89599e;
+    border: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+.btnCerrar{
+    background-color:  #be82d8; 
+    border: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+/* Footer styling */
+footer {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/fonRe.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fija la imagen al fondo */
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer h5 {
+    font-weight: bold;
+}
+
+footer p, footer i {
+    
+    color: #ffffff;
+}
+
+footer .bi-facebook, footer .bi-twitter, footer .bi-instagram {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+footer .bi-facebook:hover, 
+footer .bi-twitter:hover, 
+footer .bi-instagram:hover {
+    color: #652b7e;
+}
+
+footer hr {
+    border-color: #646466;
+}

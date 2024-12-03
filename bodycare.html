@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Bodycare</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="bodycare.css">
+    </head>
+
+    <body>
+        <header >
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#" id="logo"><img src="img/logo1.png" alt="" width="50px">Skin Glow</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="skincare.html">Skincare</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="haircare.html">Haircare</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="nailcare.html">Nailcare</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="bodycare.html">Bodycare</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="makeup.html">Make Up</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="registro.html">Registrarse</a>
+                      </li>
+                      
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input type="text" class="form-control search-input" placeholder="Buscar productos" required>
+                        <button type="button" id="btn" class="search-button">
+                            <i class="fa fa-search"></i>
+                            <img src="img/search.png" alt="no search" height="20">
+                        </button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/imgbody2.jpg" class="d-block w-100 carousel-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-start" style="left: 15%;  right: auto; top: 25%;">
+                            <h3 class="titulo1">BODYCARE</h3>
+                            <!-- <p style="font-style: italic;">Dale a tu Cuerpo el Cuidado que se Merece</p> -->
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="img/imgbody4.jpg" class="d-block w-100 carousel-img" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-start" style="left: 20%; right: auto; top: 10%;">
+                          <div class="card">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <section class="productosSkincare">
+              <h1 class="text-center mb-4">Productos Bodycare</h1>
+              <div class="row row-cols-1 row-cols-md-3 g-4 align-items-center">
+                  <!-- Tarjeta 1 -->
+                  <div class="col">
+                      <div class="card border-0 shadow-sm" style="width: 20rem;">
+                          <div class="position-relative">
+                              <div class="image-container" class="card-img-top p-3">
+                                  <img src="https://fiduciamakeupbo.com/wp-content/uploads/2024/08/bio-oil-60ml.jpg.webp" alt="Producto" class="thumbnail" onclick="openLightbox(this)">
+                              </div>
+                              <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+                                  <img id="lightbox-img" src="" alt="Zoom Producto">
+                              </div>
+                              <button class="btn btn-light position-absolute top-0 end-0 m-2 p-1 rounded-circle">
+                                  <i class="bi bi-heart"></i>
+                              </button>
+                          </div>
+                          <div class="card-body">
+                              <h6 class="card-title fw-bold">Aceite para el cuidado de la piel</h6>
+                              <p class="card-text text-muted small">Bio-Oil</p>
+                              <div class="d-flex align-items-center mb-2">
+                                  <span class="me-1">4.3</span>
+                                  <i class="bi bi-star-fill text-warning"></i>
+                              </div>
+                              <p class="fw-bold" style="color: #546452;">Bs. 95,00</p>
+                              <button class="btn btn-primary w-100">Añadir al carrito</button>
+                          </div>
+                      </div>
+                  </div>
+          
+                  <!-- Tarjeta 2 -->
+                  <div class="col">
+                      <div class="card border-0 shadow-sm" style="width: 20rem;">
+                          <div class="position-relative">
+                              <div class="image-container" class="card-img-top p-3">
+                                  <img src="https://fiduciamakeupbo.com/wp-content/uploads/2024/11/Kiss-Beauty-Crema-de-hielo-Matcha-para-el-cuerpo-exfoliante-piel-suave-exfoliante-Limpieza-Profunda-exfoliante.jpg.webp" alt="Producto" class="thumbnail" onclick="openLightbox(this)">
+                              </div>
+                              <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+                                  <img id="lightbox-img" src="" alt="Zoom Producto">
+                              </div>
+                              <button class="btn btn-light position-absolute top-0 end-0 m-2 p-1 rounded-circle">
+                                  <i class="bi bi-heart"></i>
+                              </button>
+                          </div>
+                          <div class="card-body">
+                              <h6 class="card-title fw-bold">Matcha Body Exfoliante Corporal</h6>
+                              <p class="card-text text-muted small">Kiss Beauty</p>
+                              <div class="d-flex align-items-center mb-2">
+                                  <span class="me-1">4.2</span>
+                                  <i class="bi bi-star-fill text-warning"></i>
+                              </div>
+                              <p class="fw-bold" style="color: #546452;">Bs. 29,00</p>
+                              <button class="btn btn-primary w-100">Añadir al carrito</button>
+                          </div>
+                      </div>
+                  </div>
+          
+                  <!-- Tarjeta 3 -->
+                  <div class="col">
+                      <div class="card border-0 shadow-sm" style="width: 20rem;">
+                          <div class="position-relative">
+                              <div class="image-container" class="card-img-top p-3">
+                                  <img src="https://fiduciamakeupbo.com/wp-content/uploads/2024/11/LOVELY-EXFOLIANTE-CORPORAL-MARACUAMANZANILLA-280G-ROSTRO-HERMOSO.jpg.webp" alt="Producto" class="thumbnail" onclick="openLightbox(this)">
+                              </div>
+                              <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+                                  <img id="lightbox-img" src="" alt="Zoom Producto">
+                              </div>
+                              <button class="btn btn-light position-absolute top-0 end-0 m-2 p-1 rounded-circle">
+                                  <i class="bi bi-heart"></i>
+                              </button>
+                          </div>
+                          <div class="card-body">
+                              <h6 class="card-title fw-bold"> Exfoliante Corporal Maracua+Manzanilla</h6>
+                              <p class="card-text text-muted small">Lovely</p>
+                              <div class="d-flex align-items-center mb-2">
+                                  <span class="me-1">2.3</span>
+                                  <i class="bi bi-star-fill text-warning"></i>
+                              </div>
+                              <p class="fw-bold" style="color: #546452;">Bs. 39,00</p>
+                              <button class="btn btn-primary w-100">Añadir al carrito</button>
+                          </div>
+                      </div>
+                  </div>
+          
+                  <!-- Tarjeta 4 -->
+                  <div class="col">
+                      <div class="card border-0 shadow-sm" style="width: 20rem;">
+                          <div class="position-relative">
+                              <div class="image-container" class="card-img-top p-3">
+                                  <img src="https://fiduciamakeupbo.com/wp-content/uploads/2024/10/All-Beauty-Luxury-Parfums-Scandal-90ml.jpg.webp" alt="Producto" class="thumbnail" onclick="openLightbox(this)">
+                              </div>
+                              <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+                                  <img id="lightbox-img" src="" alt="Zoom Producto">
+                              </div>
+                              <button class="btn btn-light position-absolute top-0 end-0 m-2 p-1 rounded-circle">
+                                  <i class="bi bi-heart"></i>
+                              </button>
+                          </div>
+                          <div class="card-body">
+                              <h6 class="card-title fw-bold">Luxury Parfums Escandalo</h6>
+                              <p class="card-text text-muted small">All Beauty</p>
+                              <div class="d-flex align-items-center mb-2">
+                                  <span class="me-1">4.7</span>
+                                  <i class="bi bi-star-fill text-warning"></i>
+                              </div>
+                              <p class="fw-bold" style="color: #546452;">Bs. 259,00</p>
+                              <button class="btn btn-primary w-100">Añadir al carrito</button>
+                          </div>
+                      </div>
+                  </div>
+          
+                  <!-- Tarjeta 5 -->
+                  <div class="col">
+                      <div class="card border-0 shadow-sm" style="width: 20rem;">
+                          <div class="position-relative">
+                              <div class="image-container" class="card-img-top p-3">
+                                  <img src="https://fiduciamakeupbo.com/wp-content/uploads/2024/10/All-Beauty-Luxury-Parfums-ok-uno-100-ml.jpg.webp" alt="Producto" class="thumbnail" onclick="openLightbox(this)">
+                              </div>
+                              <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+                                  <img id="lightbox-img" src="" alt="Zoom Producto">
+                              </div>
+                              <button class="btn btn-light position-absolute top-0 end-0 m-2 p-1 rounded-circle">
+                                  <i class="bi bi-heart"></i>
+                              </button>
+                          </div>
+                          <div class="card-body">
+                              <h6 class="card-title fw-bold">Luxury Parfums ok uno</h6>
+                              <p class="card-text text-muted small">All Beauty</p>
+                              <div class="d-flex align-items-center mb-2">
+                                  <span class="me-1">3.4</span>
+                                  <i class="bi bi-star-fill text-warning"></i>
+                              </div>
+                              <p class="fw-bold" style="color: #546452;">Bs. 229,00</p>
+                              <button class="btn btn-primary w-100">Añadir al carrito</button>
+                          </div>
+                      </div>
+                  </div>
+          
+                  <!-- Tarjeta 6 -->
+                  <div class="col">
+                      <div class="card border-0 shadow-sm" style="width: 20rem;">
+                          <div class="position-relative">
+                              <div class="image-container" class="card-img-top p-3">
+                                  <img src="https://fiduciamakeupbo.com/wp-content/uploads/2024/10/All-Beauty-Luxury-Parfums-Tommy-woman-100-ml.jpg.webp" alt="Producto" class="thumbnail" onclick="openLightbox(this)">
+                              </div>
+                              <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+                                  <img id="lightbox-img" src="" alt="Zoom Producto">
+                              </div>
+                              <button class="btn btn-light position-absolute top-0 end-0 m-2 p-1 rounded-circle">
+                                  <i class="bi bi-heart"></i>
+                              </button>
+                          </div>
+                          <div class="card-body">
+                              <h6 class="card-title fw-bold">Luxury Parfums Tommy woman</h6>
+                              <p class="card-text text-muted small">All Beauty</p>
+                              <div class="d-flex align-items-center mb-2">
+                                  <span class="me-1">4.3</span>
+                                  <i class="bi bi-star-fill text-warning"></i>
+                              </div>
+                              <p class="fw-bold" style="color: #546452;">Bs. 185,00</p>
+                              <button class="btn btn-primary w-100">Añadir al carrito</button>
+                          </div>
+                      </div>
+                  </div>
+          
+                  <!-- Tarjeta 7 -->
+                  <div class="col">
+                      <div class="card border-0 shadow-sm" style="width: 20rem;">
+                          <div class="position-relative">
+                              <div class="image-container" class="card-img-top p-3">
+                                  <img src="https://fiduciamakeupbo.com/wp-content/uploads/2024/10/All-Beauty-Luxury-Parfums-Loove-Girl-80-ml.jpg.webp" alt="Producto" class="thumbnail" onclick="openLightbox(this)">
+                              </div>
+                              <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+                                  <img id="lightbox-img" src="" alt="Zoom Producto">
+                              </div>
+                              <button class="btn btn-light position-absolute top-0 end-0 m-2 p-1 rounded-circle">
+                                  <i class="bi bi-heart"></i>
+                              </button>
+                          </div>
+                          <div class="card-body">
+                              <h6 class="card-title fw-bold">Luxury Parfums Loove Girl </h6>
+                              <p class="card-text text-muted small">All Beauty</p>
+                              <div class="d-flex align-items-center mb-2">
+                                  <span class="me-1">3.2</span>
+                                  <i class="bi bi-star-fill text-warning"></i>
+                              </div>
+                              <p class="fw-bold" style="color: #546452;">Bs. 259,00</p>
+                              <button class="btn btn-primary w-100">Añadir al carrito</button>
+                          </div>
+                      </div>
+                  </div>
+          
+                  <!-- Tarjeta 8 -->
+                  <div class="col">
+                      <div class="card border-0 shadow-sm" style="width: 20rem;">
+                          <div class="position-relative">
+                              <div class="image-container" class="card-img-top p-3">
+                                  <img src="https://fiduciamakeupbo.com/wp-content/uploads/2024/10/All-Beauty-Luxury-Parfums-212-VIP-BLACK-100ml.jpg.webp" alt="Producto" class="thumbnail" onclick="openLightbox(this)">
+                              </div>
+                              <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+                                  <img id="lightbox-img" src="" alt="Zoom Producto">
+                              </div>
+                              <button class="btn btn-light position-absolute top-0 end-0 m-2 p-1 rounded-circle">
+                                  <i class="bi bi-heart"></i>
+                              </button>
+                          </div>
+                          <div class="card-body">
+                              <h6 class="card-title fw-bold">Luxury Parfums 212 VIP BLACK</h6>
+                              <p class="card-text text-muted small">All Beauty</p>
+                              <div class="d-flex align-items-center mb-2">
+                                  <span class="me-1">4.4</span>
+                                  <i class="bi bi-star-fill text-warning"></i>
+                              </div>
+                              <p class="fw-bold" style="color: #546452;">Bs. 259,00</p>
+                              <button class="btn btn-primary w-100">Añadir al carrito</button>
+                          </div>
+                      </div>
+                  </div>
+          
+                  <!-- Tarjeta 9 -->
+                  <div class="col">
+                      <div class="card border-0 shadow-sm" style="width: 20rem;">
+                          <div class="position-relative">
+                              <div class="image-container" class="card-img-top p-3">
+                                  <img src="https://fiduciamakeupbo.com/wp-content/uploads/2024/10/All-Beauty-Luxury-Parfums-Salvaje-100ml.jpg.webp" alt="Producto" class="thumbnail" onclick="openLightbox(this)">
+                              </div>
+                              <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+                                  <img id="lightbox-img" src="" alt="Zoom Producto">
+                              </div>
+                              <button class="btn btn-light position-absolute top-0 end-0 m-2 p-1 rounded-circle">
+                                  <i class="bi bi-heart"></i>
+                              </button>
+                          </div>
+                          <div class="card-body">
+                              <h6 class="card-title fw-bold">Luxury Parfums Salvaje</h6>
+                              <p class="card-text text-muted small">All Beauty</p>
+                              <div class="d-flex align-items-center mb-2">
+                                  <span class="me-1">1.7</span>
+                                  <i class="bi bi-star-fill text-warning"></i>
+                              </div>
+                              <p class="fw-bold" style="color: #546452;">Bs. 259,00</p>
+                              <button class="btn btn-primary w-100">Añadir al carrito</button>
+                          </div>
+                      </div>
+                  </div>
+          
+                  <!-- Tarjeta 10 -->
+                  <div class="col">
+                      <div class="card border-0 shadow-sm" style="width: 20rem;">
+                          <div class="position-relative">
+                              <div class="image-container" class="card-img-top p-3">
+                                  <img src="https://fiduciamakeupbo.com/wp-content/uploads/2024/10/All-Beauty-Luxury-Parfums-Dollar-100ml.jpg.webp" alt="Producto" class="thumbnail" onclick="openLightbox(this)">
+                              </div>
+                              <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+                                  <img id="lightbox-img" src="" alt="Zoom Producto">
+                              </div>
+                              <button class="btn btn-light position-absolute top-0 end-0 m-2 p-1 rounded-circle">
+                                  <i class="bi bi-heart"></i>
+                              </button>
+                          </div>
+                          <div class="card-body">
+                              <h6 class="card-title fw-bold">Luxury Parfums Dollar</h6>
+                              <p class="card-text text-muted small">All Beauty</p>
+                              <div class="d-flex align-items-center mb-2">
+                                  <span class="me-1">4.1</span>
+                                  <i class="bi bi-star-fill text-warning"></i>
+                              </div>
+                              <p class="fw-bold" style="color: #546452;">Bs. 239,00</p>
+                              <button class="btn btn-primary w-100">Añadir al carrito</button>
+                          </div>
+                      </div>
+                  </div>
+
+
+                  <div class="col">
+                      <div class="card border-0 shadow-sm" style="width: 20rem;">
+                          <div class="position-relative">
+                              <div class="image-container" class="card-img-top p-3">
+                                  <img src="https://fiduciamakeupbo.com/wp-content/uploads/2024/10/All-Beauty-Luxury-Parfums-La-vida-es-linda-100ml.jpg.webp" alt="Producto" class="thumbnail" onclick="openLightbox(this)">
+                              </div>
+                              <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+                                  <img id="lightbox-img" src="" alt="Zoom Producto">
+                              </div>
+                              <button class="btn btn-light position-absolute top-0 end-0 m-2 p-1 rounded-circle">
+                                  <i class="bi bi-heart"></i>
+                              </button>
+                          </div>
+                          <div class="card-body">
+                              <h6 class="card-title fw-bold">Luxury Parfums La vida es linda</h6>
+                              <p class="card-text text-muted small">All Beauty</p>
+                              <div class="d-flex align-items-center mb-2">
+                                  <span class="me-1">3.6</span>
+                                  <i class="bi bi-star-fill text-warning"></i>
+                              </div>
+                              <p class="fw-bold" style="color: #546452;">Bs. 209,00</p>
+                              <button class="btn btn-primary w-100">Añadir al carrito</button>
+                          </div>
+                      </div>
+                  </div>
+
+
+                  <div class="col">
+                      <div class="card border-0 shadow-sm" style="width: 20rem;">
+                          <div class="position-relative">
+                              <div class="image-container" class="card-img-top p-3">
+                                  <img src="https://fiduciamakeupbo.com/wp-content/uploads/2024/10/All-Beauty-Luxury-Parfums-Invictus-100-ml.jpg.webp" alt="Producto" class="thumbnail" onclick="openLightbox(this)">
+                              </div>
+                              <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+                                  <img id="lightbox-img" src="" alt="Zoom Producto">
+                              </div>
+                              <button class="btn btn-light position-absolute top-0 end-0 m-2 p-1 rounded-circle">
+                                  <i class="bi bi-heart"></i>
+                              </button>
+                          </div>
+                          <div class="card-body">
+                              <h6 class="card-title fw-bold">Luxury Parfums Invictus</h6>
+                              <p class="card-text text-muted small">Luxury Parfums Invictus</p>
+                              <div class="d-flex align-items-center mb-2">
+                                  <span class="me-1">3.3</span>
+                                  <i class="bi bi-star-fill text-warning"></i>
+                              </div>
+                              <p class="fw-bold" style="color: #546452;">Bs. 229,00</p>
+                              <button class="btn btn-primary w-100">Añadir al carrito</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+
+        </main>
+        <footer class="text-center">
+          <div class="container">
+              <!-- Links -->
+              <div class="footer-links mb-3">
+                  <a href="skincare.html">SKINCARE</a>
+                  <a href="haircare.html">HAIRCARE</a>
+                  <a href="nailcare.html">NAILCARE</a>
+                  <a href="bodycare.html">BODYCARE</a>
+                  
+              </div>
+      
+              <!-- Contact Info -->
+              <div class="contact-info">
+                  <p style="color: white;">
+                      <i class="bi bi-geo-alt" style="color: white;"></i> Bolivia, Sucre - J. Prudencio Bustillos
+                  </p>
+                  <p style="color: white;">
+                      <i class="bi bi-telephone" style="color: white;"></i> +591 6373598
+                  </p>
+                  <p style="color: white;">
+                      <i class="bi bi-envelope" style="color: white;"></i> <a href="#" style="color: white;">skinGlow@gmail.com</a>
+                  </p>
+              </div>
+      
+              <!-- Newsletter -->
+              <div class="newsletter mb-4">
+                  <p style="color: white;">Inscríbete a nuestra newsletter</p>
+                  <form class="d-flex justify-content-center">
+                      <input type="email" class="form-control w-50" placeholder="email address">
+                      <button type="submit" class="btn btn-dark">Subscribe</button>
+                  </form>
+              </div>
+      
+              <!-- Social Media Icons -->
+              <div class="social-icons mb-3">
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-youtube"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+              </div>
+      
+              <!-- Legal Links -->
+              <div class="legal-links">
+                  <a href="#">NOTA LEGAL</a>
+                  <a href="#">POLÍTICA DE PRIVACIDAD</a>
+                  <a href="#">POLÍTICA DE COOKIES</a>
+                  <a href="#">CONTACTO</a>
+              </div>
+          </div>
+      </footer>
+      
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+        <script src="nailcare.js"></script>
+
+    </body>
+</html>

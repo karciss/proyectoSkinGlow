@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>formulario</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="registro.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+
+    <body>
+        <header >
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#" id="logo"><img src="img/logo1.png" alt="" width="50px">Skin Glow</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="skincare.html">Skincare</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="haircare.html">Haircare</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="nailcare.html">Nailcare</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="bodycare.html">Bodycare</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="makeup.html">Make Up</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="registro.html">Registrarse</a>
+                      </li>
+                      
+                      
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input type="text" class="form-control search-input" placeholder="Buscar productos" required>
+                        <button type="button" id="btn" class="search-button">
+                            <i class="fa fa-search"></i>
+                            <img src="img/search.png" alt="no search" height="20">
+                        </button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main class="form-container d-flex align-items-center justify-content-center">
+            <form class="form-container">
+                <h1>Regístrese para más Beneficios</h1>
+            
+                <div class="form-floating mb-3">
+                    
+                    <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com" aria-describedby="emailHelp">
+                    <label for="floatingEmail">Email address</label>
+                    <div id="emailHelp" class="form-text">No se compartirá su email.</div>
+                </div>
+            
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+                <div class="row g-2">
+                    <div class="col-md">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingNombre" placeholder="Nombre">
+                            <label for="floatingNombre">Nombre</label>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingNick" placeholder="Nick Name">
+                            <label for="floatingNick">Nick Name</label>
+                        </div>
+                    </div>
+                  </div>
+
+                
+            
+                
+            
+                <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="floatingEdad" placeholder="Edad">
+                    <label for="floatingEdad">Edad</label>
+                </div>
+            
+                <div class="form-floating mb-3">
+                    <input type="date" class="form-control" id="floatingFechaNacimiento" placeholder="Fecha de Nacimiento">
+                    <label for="floatingFechaNacimiento">Fecha de Nacimiento</label>
+                </div>
+            
+                <div class="mb-3">
+                    <label for="floatingImagen" class="form-label">Seleccione Foto de Perfil:</label>
+                    <input type="file" class="form-control" id="floatingImagen" accept="image/*">
+                </div>
+            
+                <div class="form-floating mb-3">
+                    <select class="form-select" id="floatingGenero" aria-label="Género">
+                        <option selected>Genero</option>
+                        <option value="1">Femenino</option>
+                        <option value="2">Masculino</option>
+                        <option value="3">Otros</option>
+                    </select>
+                    <label for="floatingGenero">Género</label>
+                </div>
+            
+                
+                
+
+                <div class="form-check mb-3">
+                    
+                    <input type="checkbox" class="form-check-input" id="floatingCheck">
+                    <label class="form-check-label" for="floatingCheck">Desea Recibir Notificaciones?</label>
+                    
+                </div>
+                
+
+                <button type="button" class="btnSubir w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Subir
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Registro Exitoso !!</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color:  #9C6AB2;"></button>
+                        </div>
+                        <div class="modal-body">
+                          Gracias por unirse a nuetra comunidad !! <br> Pronto le llegarán más notificaciones sobre nuestra pagina...
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btnCerrar" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btnGuardar">Guardar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </form>
+        </main>
+        <footer class="pt-5 pb-4">
+            <div class="container text-center text-md-start">
+                <div class="row">
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold" style="color: white;">About Us</h5>
+                        <hr class="mb-4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse incidunt velit fugiat, molestias explicabo rem, alias quas qui dolorum repudiandae itaque. Totam dolor fugit ullam quasi eum doloribus, magni excepturi.</p>
+                    </div>
+        
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold" style="color: #fdfdfd;">Contáctanos</h5>
+                        <hr class="mb-4">
+                        <p><i class="bi bi-geo-alt"></i> Bolivia, Sucre</p>
+                        <p><i class="bi bi-envelope"></i> skinGlow@gmail.com</p>
+                        <p><i class="bi bi-phone"></i> +591 63735984</p>
+                        <p>Redes Sociales</p>
+                        <div>
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
